@@ -1,0 +1,15 @@
+[user]
+	name = Fuglen
+	email = fuglenbusiness@gmail.com
+[core]
+	longpaths = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[credential]
+	helper = "!f() { /home/container/TFB/.vscode-server/bin/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9/node /tmp/vscode-remote-containers-84afeb17bdcd87fcee6352587e1a4bf7d59378d3.js $*; }; f"
+[filter "gitignore"]
+	clean = "sed '/#gitignore$/d'"
+	smudge = cat
