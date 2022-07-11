@@ -4,4 +4,7 @@ pkcs.p12
 *.key
 /logs/*
 *.log*
-.vscode
+.vscode/sftp.json
+.local
+.cache
+.vscode-server
