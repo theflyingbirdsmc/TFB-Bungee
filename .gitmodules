@@ -1,3 +1,6 @@
 [submodule "FlameCord"]
 	path = FlameCord
 	url = https://github.com/2lstudios-mc/FlameCord.git
+[submodule "pluGET"]
+	path = pluGET
+	url = https://github.com/Neocky/pluGET.git
