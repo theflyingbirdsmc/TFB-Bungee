@@ -1,6 +1,3 @@
-[submodule "pluGET"]
-	path = pluGET
-	url = https://github.com/theflyingbirdsmc/pluGET.git
 [submodule "FlameCord"]
 	path = FlameCord
 	url = https://github.com/2lstudios-mc/FlameCord.git
